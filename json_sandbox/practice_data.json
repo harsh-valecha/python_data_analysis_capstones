@@ -1,0 +1,295 @@
+{
+  "company": {
+    "name": "DataNest Labs"
+  },
+  "employees": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "active": true,
+      "age": 28,
+      "city": "New York",
+      "department": "Data Science",
+      "role": "Senior Analyst",
+      "skills": [
+        "Python",
+        "SQL",
+        "Data Analysis",
+        "Visualization"
+      ],
+      "projects": [
+        {
+          "project_id": "PRJ-101",
+          "project_name": "Customer Insights",
+          "status": "in_progress",
+          "tasks": [
+            {
+              "task_id": "T1",
+              "title": "Clean customer data",
+              "completed": true
+            },
+            {
+              "task_id": "T2",
+              "title": "Build dashboard",
+              "completed": false
+            },
+            {
+              "task_id": "T3",
+              "title": "Find churn drivers",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "project_id": "PRJ-205",
+          "project_name": "Forecasting Model",
+          "status": "completed",
+          "tasks": [
+            {
+              "task_id": "T4",
+              "title": "Train model",
+              "completed": true
+            },
+            {
+              "task_id": "T5",
+              "title": "Validate results",
+              "completed": true
+            }
+          ]
+        }
+      ],
+      "preferences": {
+        "timezone": "UTC-5",
+        "notifications": [
+          "email",
+          "slack"
+        ],
+        "remote_ok": true
+      },
+      "performance": {
+        "rating": 4.8,
+        "reviews": [
+          {
+            "month": "January",
+            "score": 5
+          },
+          {
+            "month": "February",
+            "score": 4
+          },
+          {
+            "month": "March",
+            "score": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "active": false,
+      "age": 35,
+      "city": "Chicago",
+      "department": "Engineering",
+      "role": "Backend Developer",
+      "skills": [
+        "JavaScript",
+        "Node.js",
+        "API Design",
+        "Databases"
+      ],
+      "projects": [
+        {
+          "project_id": "PRJ-120",
+          "project_name": "Order Service",
+          "status": "completed",
+          "tasks": [
+            {
+              "task_id": "T6",
+              "title": "Implement endpoints",
+              "completed": true
+            },
+            {
+              "task_id": "T7",
+              "title": "Write tests",
+              "completed": true
+            }
+          ]
+        }
+      ],
+      "preferences": {
+        "timezone": "UTC-6",
+        "notifications": [
+          "slack"
+        ],
+        "remote_ok": false
+      },
+      "performance": {
+        "rating": 4.2,
+        "reviews": [
+          {
+            "month": "January",
+            "score": 4
+          },
+          {
+            "month": "February",
+            "score": 4
+          },
+          {
+            "month": "March",
+            "score": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "email": "charlie@example.com",
+      "active": true,
+      "age": 24,
+      "city": "Bhatinda",
+      "department": "Machine Learning",
+      "role": "ML Engineer",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "TensorFlow",
+        "MLOps"
+      ],
+      "projects": [
+        {
+          "project_id": "PRJ-150",
+          "project_name": "Recommendation Engine",
+          "status": "in_progress",
+          "tasks": [
+            {
+              "task_id": "T8",
+              "title": "Collect training data",
+              "completed": true
+            },
+            {
+              "task_id": "T9",
+              "title": "Tune hyperparameters",
+              "completed": false
+            },
+            {
+              "task_id": "T10",
+              "title": "Deploy pipeline",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "project_id": "PRJ-160",
+          "project_name": "Model Monitoring",
+          "status": "in_progress",
+          "tasks": [
+            {
+              "task_id": "T11",
+              "title": "Add alerts",
+              "completed": false
+            },
+            {
+              "task_id": "T12",
+              "title": "Review drift metrics",
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "preferences": {
+        "timezone": "UTC-8",
+        "notifications": [
+          "email",
+          "slack",
+          "sms"
+        ],
+        "remote_ok": true
+      },
+      "performance": {
+        "rating": 4.9,
+        "reviews": [
+          {
+            "month": "January",
+            "score": 5
+          },
+          {
+            "month": "February",
+            "score": 5
+          },
+          {
+            "month": "March",
+            "score": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Diana Lee",
+      "email": "diana@example.com",
+      "active": true,
+      "age": 31,
+      "city": "Austin",
+      "department": "Product",
+      "role": "Product Manager",
+      "skills": [
+        "Planning",
+        "UX",
+        "Communication",
+        "Python"
+      ],
+      "projects": [
+        {
+          "project_id": "PRJ-180",
+          "project_name": "Analytics Portal",
+          "status": "in_progress",
+          "tasks": [
+            {
+              "task_id": "T13",
+              "title": "Gather requirements",
+              "completed": true
+            },
+            {
+              "task_id": "T14",
+              "title": "Prioritize backlog",
+              "completed": true
+            },
+            {
+              "task_id": "T15",
+              "title": "Review release notes",
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "preferences": {
+        "timezone": "UTC-6",
+        "notifications": [
+          "email"
+        ],
+        "remote_ok": true
+      },
+      "performance": {
+        "rating": 4.6,
+        "reviews": [
+          {
+            "month": "January",
+            "score": 5
+          },
+          {
+            "month": "February",
+            "score": 4
+          },
+          {
+            "month": "March",
+            "score": 5
+          }
+        ]
+      }
+    }
+  ]
+}
